@@ -43,3 +43,18 @@ class Browser:
         print('Closing browser...')
         self.browser.close()
 
+
+def main():
+    driver: str = 'chromedriver.exe'
+    browser = Browser(driver=driver)
+
+    # Scrape the e-mails
+    emails: set = browser.scrape_emails('https://www.randomlists.com/email-addresses?qty=50')
+
+    # Display the e-mails
+    for i, email in enumerate(emails, start=1):
+        print(i, email, sep=': ')
+
+
+if __name__ == '__main__':
+    main()
