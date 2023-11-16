@@ -7,6 +7,10 @@ This program scrapes emails from a web page
 -   [Random emails](https://www.randomlists.com/email-addresses) generates random emails to be used in this project
 -   [Chromedriver](https://googlechromelabs.github.io/chrome-for-testing/#stable) is used in conjunction with Selenium
 
+## Technologies
+-   [Python](https://www.python.org/)
+-   [Selenium](https://www.selenium.dev/documentation/webdriver/)
+
 ## Project Creation
 
 This project was developed using a [VS Code](https://code.visualstudio.com/). The code was committed to [Git](https://git-scm.com) and pushed to [GitHub](https://github.com) using the terminal.
