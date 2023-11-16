@@ -4,7 +4,8 @@
 This program scrapes emails from a web page
 
 ## Resources
-[Random emails](https://www.randomlists.com/email-addresses) generates random emails to be used in this project
+-   [Random emails](https://www.randomlists.com/email-addresses) generates random emails to be used in this project
+-   [Chromedriver](https://googlechromelabs.github.io/chrome-for-testing/#stable) is used in conjunction with Selenium
 
 ## Project Creation
 
